@@ -5,7 +5,7 @@ phases:
       - echo Logging in to DockerHub...
       - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASS
       - REPOSITORY_URI="068783158902.dkr.ecr.us-east-1.amazonaws.com/backend"
-      - CONTAINER_NAME="backend-container"
+      - CONTAINER_NAME="backend"
       - IMAGE_TAG="latest"
   build:
     commands:
