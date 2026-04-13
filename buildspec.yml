@@ -4,7 +4,7 @@ env:
   variables:
     AWS_DEFAULT_REGION: us-east-1
     ACCOUNT_ID: 059567099966
-    REPOSITORY_NAME: backend
+    REPOSITORY_NAME: my-app/backend
     IMAGE_TAG: latest
     CONTAINER_NAME: backend
 
